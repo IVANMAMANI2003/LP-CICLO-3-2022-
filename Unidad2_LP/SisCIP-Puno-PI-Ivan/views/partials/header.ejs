@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>main</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="https://unpkg.com/alpinejs/dist/cdn.min.js" defer></script>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="images/apple-icon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
+    />
+  </head>
+<body>  
+  <nav class="bg-red-700  py-1" >
+    <div class=" mx-auto px-2 sm:px-2 lg:px-3">
+      <div class="relative flex items-center justify-between h-16">
+        
+          <div class="flex-1 flex items-center  justify-start ">
+            <div  class="flex-shrink-0 flex items-center pr-2 border-r-2 border-white ">
+              <img class="hidden-block h-8 w-auto" src="images/menuicono.png" alt="menú">
+            </div>
+            <div class="flex-shrink-0 flex items-center ml-3">
+              <img class="hidden-block h-14 w-auto" src="images/LOGOTIPO.png" alt="CIP-PUNO">
+            </div>
+            
+            <div class=" flex hidden-block ml-2">
+              
+              <h6 class=" text-white font-bold text-[16px] ">
+                  CIP-PUNO
+              </h6>
+            </div>
+            
+          
+          
+        </div>
+        <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+         
+  
+          <!-- Profile dropdown -->
+          <div x-data="{open:false}" class="ml-3 ">
+            <div>
+              <button @click="open=!open" type="button" class="bg-gray-800 flex text-sm rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                <span class="sr-only">Open user menu</span>
+                <img class="h-14 w-14 rounded-xl" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+              </button>
+            </div>
+  
+            <!--
+              Dropdown menu, show/hide based on menu state.
+  
+              Entering: "transition ease-out duration-100"
+                From: "transform opacity-0 scale-95"
+                To: "transform opacity-100 scale-100"
+              Leaving: "transition ease-in duration-75"
+                From: "transform opacity-100 scale-100"
+                To: "transform opacity-0 scale-95"
+            -->
+            <div x-show="open" @click.outside="open=false" class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+              <!-- Active: "bg-gray-100", Not Active: "" -->
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-0"> <%= locals.email %> </a>
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-1">Settings</a>
+              <a href="/logout" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2">cerrar sesion</a>
+            </div>
+          </div>
+            <div class="flex  hidden-block ml-2 mr-9 ">
+              
+              <div class=" flex flex-col hidden-block ml-2">
+              
+                <h6 class=" text-white font-serif text-[12px] ">
+                    Ivan Yomar
+                </h6>
+                <h6 class=" text-white font-bold text-[12px]">
+                    Mamani Merma
+                </h6>
+              </div>
+              
+            </div>
+            <div class="">
+  
+            </div>
+            <svg class=" pl-3 border-white border-l-2 h-8 w-12 text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />  <polyline points="16 17 21 12 16 7" />  <line x1="21" y1="12" x2="9" y2="12" /></svg>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Mobile menu, show/hide based on menu state. -->
+  
+  </nav>
+
+  
+</body>
+</html> 

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ventas de Plantas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <video class="w-100" src="Video/Video_01_Planta.mp4" autoplay muted loop style="position: fixed; z-index: -1;"></video>
+    <section> 
+      <div class="accordion" id="accordionExample">
+          <div class="bg-success text-center pt-2 pb-2  border-4 border-secondary opacity-75 fs-1 fw-semibold">
+              <b> Tienda de Plantas </b>
+          </div> 
+      </div>
+      <div class="container" style="width: 100%;">
+        <div id="carouselExampleCaptions" class="carousel slide mx-auto" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <center>
+                    <img src="Img/Planta_01.jpg" class="d-block w-50">
+                </center> 
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-indigo">Plantas al por mayor</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <center>
+                    <img src="Img/Planta_02.jpg" class="d-block w-50">
+                </center>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <center>
+                    <img src="Img/Planta_03.jpg" class="d-block w-50">
+                </center>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+      </div> 
+      <div class="container" style="width: 100%;">
+        <div class="pt-2 mb-2">
+            <div class="d-grid">
+                <div class="m-2 p-2 bg-light" style="border-radius:10px;">Clases de plantas según su tamaño:</div>
+            </div>
+          <button type="button" class="btn btn-primary" style="margin-left: 8px;" onclick="location.href='https://theoriginalgarden.com/es/p/plantas/exterior/herbaceas'">Herbáceas</button>
+          <button type="button" class="btn btn-secondary" onclick="location.href='https://xerojardineriaenelmundo.blogspot.com/2010/03/subarbustos-y-matas.html'">Matas o subarbustos</button>
+          <button type="button" class="btn btn-success" onclick="location.href='https://www.viverochaclacayo.com.pe/arbusto-8-c.html'">Arbustos</button>
+          <button type="button" class="btn btn-danger" onclick="location.href='https://www.ocompra.com/peru/buscar/item/arboles/'">Árboles</button>
+        </div>
+      </div>
+      <div class="container d-grid" style="width: 100%;">
+        <div class="m-2 p-2 bg-light" style="border-radius:10px;">Clases de plantas según su duración:</div>
+      </div>
+      <div class="container d-flex flex-wrap"style="width: 100%;">
+        <div class="card mt-0" style="width: 18rem; margin-left: 10.5%; margin-right:5px;">
+          <img src="Img/PPerenne_01.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center text-indigo-200">
+            <h5 class="card-title"><b> Plantas perennes </b></h5>
+            <p class="card-text">Son aquellas plantas que viven durante varias temporadas ya que cuentan con recursos para vivir con mayor facilidad y durante periodos de tiempo más largos que el resto.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card mt-0" style="width: 18rem; margin-left:5px; margin-right:5px;">
+          <img src="Img/PBianual_01.jpg" class="card-img-top p-1" alt="...">
+          <div class="card-body text-center text-indigo-200">
+            <h5 class="card-title"><b> Plantas bianuales </b></h5>
+            <p class="card-text">Estas plantas tienen un periodo de crecimiento que ocupa dos temporadas completas. Durante la primera la planta alcanza su máximo desarrollo para que, durante la segunda den flores y frutos con los que nazca la siguiente generación.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card mt-0" style="width: 18rem; margin-left:5px;">
+          <img src="Img/PAnual_01.jpg" class="card-img-top p-1" alt="...">
+          <div class="card-body text-center text-indigo-200">
+            <h5 class="card-title"><b> Plantas anuales </b></h5>
+            <p class="card-text">Por último, se encuentran las plantas anuales que tienen un periodo de vida que tan sólo ocupa una temporada. Estas plantas son de crecimiento muy rápido y suelen germinar y florecer durante la primavera de forma general. Finalizan su ciclo entre el periodo de otoño a invierno.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div>
+        <div class="mt-2 bg-light text-center"><h1>Nuevos Productos</h1></div>
+        <div class="album py-5 bg-light">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm" style="height: 100%;">
+                    <img class="mx-auto" src="Img/NP_Planta_01.jpg" style="width: 250px; height: 221px;">
+                    <div class="card-body">
+                      <p class="card-text">Bunch of Assorted Gerberas in a Glass Vase</p>
+                      <div class="mx-auto"><img src="Img/IC_Estrella_02.zip.png" style="margin-top: -30px; margin-left: 100px;"></div>
+                      <div class="Costo" style="text-align: center;">
+                        <h3>$84.99</h3>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">ADD TO CART</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm" style="height: 100%;">
+                      <img class="mx-auto" src="Img/NP_Planta_02.jpg" style="width: 250px; height: 221px;">
+                      <div class="card-body">
+                        <p class="card-text">Round Handle Basket of Mixed Roses</p>
+                        <div class="mx-auto"><img src="Img/IC_Estrella_01.zip.png" style="margin-top: -30px; margin-left: 100px;"></div>
+                        <div class="Costo" style="text-align: center;">
+                          <h3>$37.00</h3>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">ADD TO CART</button>
+                          </div>
+                          <small class="text-muted">9 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm" style="height: 100%;">
+                      <img class="mx-auto" src="Img/NP_Planta_03.jpg" style="width: 250px; height: 221px;">
+                      <div class="card-body">
+                        <p class="card-text">Glass Vase With Red and White Roses</p>
+                        <div class="mx-auto"><img src="Img/IC_Estrella_05.zip.png" style="margin-top: -30px; margin-left: 100px;"></div>
+                        <div class="Costo" style="text-align: center;">
+                          <h3>$232.99</h3>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">ADD TO CART</button>
+                          </div>
+                          <small class="text-muted">9 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm" style="height: 100%;">
+                      <img class="mx-auto" src="Img/NP_Planta_04.jpg" style="width: 250px; height: 221px;">
+                      <div class="card-body">
+                        <p class="card-text">Bunch of Assorted Gerberas</p>
+                        <div class="mx-auto"><img src="Img/IC_Estrella_03.zip.png" style="margin-top: -30px; margin-left: 100px;"></div>
+                        <div class="Costo" style="text-align: center;">
+                          <h3>$150.55</h3>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">ADD TO CART</button>
+                          </div>
+                          <small class="text-muted">9 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm" style="height: 100%;">
+                      <img class="mx-auto" src="Img/NP_Planta_05.jpg" style="width: 250px; height: 221px;">
+                      <div class="card-body">
+                        <p class="card-text">Bunch of Pink & Red Roses in a Glass Vase</p>
+                        <div class="mx-auto"><img src="Img/IC_Estrella_02.zip.png" style="margin-top: -30px; margin-left: 100px;"></div>
+                        <div class="Costo" style="text-align: center;">
+                          <h3>$84.00</h3>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">ADD TO CART</button>
+                          </div>
+                          <small class="text-muted">9 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm" style="height: 100%;">
+                      <img class="mx-auto" src="Img/NP_Planta_06.jpg" style="width: 250px; height: 221px;">
+                      <div class="card-body">
+                        <p class="card-text">Beautiful Basket of Gerberas & Roses</p> 
+                        <div class="mx-auto"><img src="Img/IC_Estrella_00.zip.png" style="margin-top: -30px; margin-left: 100px;"></div>
+                        <div class="Costo" style="text-align: center;">
+                          <h3>$11.99</h3>
+                        </div>             
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">ADD TO CART</button>
+                          </div>
+                          <small class="text-muted">9 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div> 
+    <div class="bg-black mt-2 p-2" style="border: 10px;">
+        <div class="Pie p-2" style="border: 10px solid white; border-radius: 10px;">
+            <div class="row mx-auto">
+                <div class="col text-white" style="padding-right: -100px;"> <b> Shopping Guide </b><br>
+                    <button type="button" class="btn btn-black">> FAQS</button> <br> 
+                    <button type="button" class="btn btn-black">> Payment</button> <br> 
+                    <button type="button" class="btn btn-black">> Shipment</button> <br> 
+                    <button type="button" class="btn btn-black">> Where is my order?</button> <br> 
+                    <button type="button" class="btn btn-black">> Return policy</button> <br> 
+                </div>
+                <div class="col text-white" style="margin-left: -100px;"> <b> Style Advisor </b> <br>
+                    <button type="button" class="btn btn-black">> Your Account</button> <br> 
+                    <button type="button" class="btn btn-black">> Information</button> <br> 
+                    <button type="button" class="btn btn-black">> Addresses</button> <br> 
+                    <button type="button" class="btn btn-black">> Discount</button> <br> 
+                    <button type="button" class="btn btn-black">> Orders History</button> <br> 
+                </div>
+                <div class="col text-white" style="margin-left: -100px;"> <b> Information </b> <br>
+                    <button type="button" class="btn btn-black">> Site Map</button> <br> 
+                    <button type="button" class="btn btn-black">> Search Terms</button> <br> 
+                    <button type="button" class="btn btn-black">> Advance Search</button> <br> 
+                    <button type="button" class="btn btn-black">> About Us</button> <br> 
+                    <button type="button" class="btn btn-black">> Contact Us</button> <br> 
+                </div>
+                <div class="col text-white" style="margin-left: -60px;"> <b> SIGN UP FOR EMAILS: </b> <br>
+                    <div>
+                        <input type="email" name="EMAIL" style="border-color: white;" placeholder="Your email address" required></input>
+                        <input type="submit" value="SUBSCRIBE" style="background-color: rgb(229, 45, 192); border-color: rgb(229, 45, 192);"> </input>
+                    </div>
+                    <div class="social mt-3"> <b>FOLLOW US</b> <br>
+                        <button class="bg-black border-white border-opacity-50" style="border-radius: 10px; margin-right: 2px;" type="button" onclick="location.href='https://www.facebook.com/'">
+                            <img src="Img/IconoFB_01.png">
+                        </button>
+                        <button class="bg-black border-white border-opacity-50" style="border-radius: 10px; margin-right: 2px;" type="button" onclick="location.href='https://twitter.com/?lang=es'">
+                            <img src="Img/IconoTW_01.png">
+                        </button>
+                        <button class="bg-black border-white border-opacity-50" style="border-radius: 10px; margin-right: 2px;" type="button" onclick="location.href='https://pe.linkedin.com/'">
+                            <img src="Img/IconoLKD_01.png">
+                        </button>
+                        <button class="bg-black border-white border-opacity-50" style="border-radius: 10px; margin-right: 2px;" type="button" onclick="location.href='https://www.youtube.com/'">
+                            <img src="Img/IconoYtB_01.png">
+                        </button>
+                        <button class="bg-black border-white border-opacity-50" style="border-radius: 10px;" type="button" onclick="location.href='https://www.facebook.com/'">
+                            <img src="Img/IconoGP_01.png">
+                        </button>
+                    </div>
+                    <div class="tarjeta mt-3" style="margin-left: -5px;">
+                        <button class="bg-black" style="border-radius: 10px; border-color: black" type="button" onclick="location.href='https://www.facebook.com/'">
+                            <img src="Img/TarjetaPP_01.png">
+                        </button>
+                        <button class="bg-black" style="border-radius: 10px; border-color: black" type="button" onclick="location.href='https://www.facebook.com/'">
+                            <img src="Img/TarjetaMC_01.png">
+                        </button>
+                        <button class="bg-black" style="border-radius: 10px; border-color: black" type="button" onclick="location.href='https://www.facebook.com/'">
+                            <img src="Img/TarjetaV_01.png">
+                        </button>
+                        <button class="bg-black" style="border-radius: 10px; border-color: black" type="button" onclick="location.href='https://www.facebook.com/'">
+                            <img src="Img/TarjetaAE_01.png">
+                        </button>
+                    </div>
+                </div> 
+            </div> 
+        </div>    
+    </div>
+</body>
+</html>

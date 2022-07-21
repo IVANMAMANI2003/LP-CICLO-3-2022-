@@ -1,0 +1,67 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    
+    text-align: center;
+    
+}
+.textheader{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    width: 80% ;
+    
+}
+
+
+section{
+    display: flex;
+    flex-flow: wrap;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+article{
+    padding: 10px;
+    
+    margin: 15px;
+    flex: 20%;
+}
+.imagen{
+    text-align: center;
+}
+.imagen img{
+    width: 200px;
+    
+
+}
+
+
+footer{
+    text-align: center;
+}
+.textopie{
+    
+    
+    text-align: center;
+}
+
+
+h3{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,91 @@
+
+body{
+    font-size: auto em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("img/fondo4.jpg" );
+    
+}
+
+header{
+    background-color:#c55a11;
+    border: 2px solid blue;
+    height: 100px;
+    text-align: center;
+    position: relative;
+}
+
+#encabezado{
+    margin-top: 40px;
+}
+
+nav{
+    background-color: #bf9000;
+    margin-top: 2px;
+    border: 2px solid green;
+    height: 40px;
+    text-align: center;
+
+}
+#barra{
+
+    margin-top: 12px;
+}
+
+.menu1{
+    background-color: #8FAADC;
+
+    margin-top: 3px;
+    height: 300px;
+    width: 15%;
+    float: left;
+    position: relative;
+
+}
+
+.texto{
+    background-color: #bfbfbf;
+    margin-top: 3px;
+
+    height: 300px;
+    width: 70%;
+    float: left;
+}
+
+.menu2{
+    background-color: #9DC3E6;
+    margin-top: 3px;
+    height: 300px;
+    width: 15%;
+    float: left;        
+}
+
+footer{
+
+    background-color: #bf9000;
+    border: 2px solid #41719C; 
+   
+    text-align: center;
+    margin-top: 305px;
+}
+
+#pie{   
+    margin-top: 20px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 200px;
+}
+.logo{
+    position: absolute;
+    
+    right: 0px;
+    top: 5px;
+}
+.likeupeu{
+    position: absolute;
+   
+    right: -200px;
+    bottom: 5px;
+}

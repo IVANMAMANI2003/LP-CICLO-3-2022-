@@ -1,0 +1,137 @@
+
+.boton{
+    text-align: center;
+}
+.btn{
+    padding: 7px 7px 7px 7px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
+    background-color: #5aae32;
+    border: 0px;
+    font-family: monospace;
+    font-size: 14pt;
+    width: 70%;
+    height: auto;
+    
+}
+.imagen{
+    
+    margin-top: -100px;
+    margin-left: 350px;
+
+}
+.btn:hover{
+    background-color: #0b5c22;
+    color: white;
+    border: #0b5c22 2px solid;
+}
+
+/*Area de un Circulo*/
+
+.botonC{
+    text-align: center;
+}
+.Acirculo{
+    padding: 7px 7px 7px 7px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
+    background-color: #4956ca;
+    border: 0px;
+    font-family: monospace;
+    font-size: 14pt;
+    width: 70%;
+    height: auto;
+    
+}
+.imagenC{
+    
+    margin-top: -120px;
+    margin-left: 350px;
+
+}
+.imagenC:hover{
+   filter: invert(100%); 
+}
+.Acirculo:hover{
+    background-color: #081d61;
+    color: white;
+    border: #081d61 2px solid;
+}
+/*Determinar si un numero es par o impar*/
+
+.botonN{
+    text-align: center;
+    
+}
+.DetNumero{
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    background-color: mediumspringgreen;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+
+    font-family: monospace;
+    font-size: 14pt;
+    height: auto;
+}
+/*ecuacion cuadratica*/
+
+.botonEC{
+    text-align: center;
+}
+.Ecuadratica{
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    background-color: gold;
+    border-radius: 20px;
+    box-shadow: #081d61 5px 5px 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14pt;
+    height: auto;
+}
+.imagenEC{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    
+    width: 150px;
+}
+.Ecuadratica  h3{
+    text-align: center;
+    
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+}
+.result h3{
+    margin-left: 50px;
+}
+#R1{
+    margin-left: 0px;
+}
+#R2{
+    margin-left: 0px;
+}
+
+/*Promedio de Notas*/
+.botonProN{
+    text-align: center;
+}
+.PromedioN{
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(21, 180, 119);
+    border-radius: 20px;
+    box-shadow: #081d61 5px 5px 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14pt;
+    height: auto;
+}
+
+.PromedioN h3{
+    text-align: center;
+}
